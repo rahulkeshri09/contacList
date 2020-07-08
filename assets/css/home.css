@@ -1,0 +1,43 @@
+body{
+    margin:0px;
+    text-align: center;
+}
+#heading{
+    margin-top:50px;
+    font-family: sans-serif;
+    color:rosybrown;
+}
+li{
+    list-style-type: none;
+    background-color: peru;
+}
+li i{
+    color:rgb(141, 54, 54);
+}
+li p{
+    display: inline-block;
+    margin-left:40px;
+    font-family: sans-serif;
+    color:white;
+}
+#contactact-list{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    width:400px;
+    align-items: center;
+    margin-left: 33%;
+    justify-content: space-around;
+}
+button,input{
+    border-radius: 50px;
+    background-color: rosybrown;
+    cursor: pointer;
+    height: 40px;
+    width:100px;
+}
+input{
+    background-color: silver;
+    height: 40px;
+    width:400px;
+}
